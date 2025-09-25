@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livsecure</title>
+    <meta name="description" content="Livestock Health Platform" />
+    <meta name="author" content="Livsecure" />
+
+    <meta property="og:title" content="Livsecure" />
+    <meta property="og:description" content="Livestock Health Platform" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@livsecure" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- Prevent favicon requests -->
+    <meta name="msapplication-TileImage" content="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" />
+
+    <style>
+      .button-group {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 24px;
+      }
+      .button-group button,
+      .button-group input[type="button"] {
+        padding: 12px 32px;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        border: none;
+        background: #fff;
+        color: #219150;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+      }
+      .button-group button:hover,
+      .button-group input[type="button"]:hover {
+        background: #219150;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
